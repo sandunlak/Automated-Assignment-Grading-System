@@ -1,0 +1,34 @@
+{
+  "rubric": [
+    {
+      "criterion_id": "C1_Knowledge",
+      "description": "Demonstrates understanding of key concepts and theories",
+      "max_marks": 10,
+      "keywords": ["machine learning", "supervised learning", "unsupervised learning", "neural networks", "deep learning", "classification", "regression"]
+    },
+    {
+      "criterion_id": "C2_Application",
+      "description": "Applies concepts to solve problems correctly",
+      "max_marks": 10,
+      "keywords": ["algorithm", "training", "testing", "model", "features", "prediction", "accuracy"]
+    },
+    {
+      "criterion_id": "C3_Analysis",
+      "description": "Analyzes results and provides insightful conclusions",
+      "max_marks": 10,
+      "keywords": ["evaluation", "metrics", "performance", "overfitting", "underfitting", "bias", "variance"]
+    },
+    {
+      "criterion_id": "C4_Communication",
+      "description": "Communicates ideas clearly and logically",
+      "max_marks": 5,
+      "keywords": ["structure", "explain", "therefore", "because", "however", "conclusion"]
+    },
+    {
+      "criterion_id": "C5_CriticalThinking",
+      "description": "Shows critical thinking and deeper understanding",
+      "max_marks": 5,
+      "keywords": ["limitations", "assumptions", "trade-offs", "improvements", "alternative", "compare"]
+    }
+  ]
+}

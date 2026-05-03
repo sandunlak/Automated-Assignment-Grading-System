@@ -1,0 +1,75 @@
+========================================
+HOW TO RUN THE WEB INTERFACE
+========================================
+
+STEP 1: Install Required Packages
+-----------------------------------
+Open PowerShell or Command Prompt and run:
+
+pip install streamlit pandas
+
+Wait for installation to complete.
+
+
+STEP 2: Run the Web App
+-----------------------------------
+Navigate to the project folder and run:
+
+cd "d:\Y4S1\Automated Assignment Grading System"
+streamlit run web_app.py
+
+
+STEP 3: Access in Browser
+-----------------------------------
+The app will automatically open in your browser at:
+http://localhost:8501
+
+If it doesn't open automatically, copy and paste the URL above into your browser.
+
+
+========================================
+QUICK USAGE GUIDE
+========================================
+
+TAB 1 - Input Configuration:
+  • Click "Load Sample Answer" button
+  • Click "Load Sample Rubric" button
+  • Click "Start Grading Process" button
+
+TAB 2 - Agent Pipeline:
+  • Click "Execute Pipeline" button
+  • Watch the 4 agents work in real-time
+  • Wait for completion (1-2 minutes)
+
+TAB 3 - Grading Results:
+  • View marks breakdown
+  • See detailed feedback
+  • Check validation report
+
+TAB 4 - Agent Activity Logs:
+  • Review complete execution logs
+  • Check tool calls
+  • Monitor performance
+
+TAB 5 - Final Report:
+  • View comprehensive report
+  • Download as text file
+
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If "streamlit" command not found:
+  pip install --user streamlit
+
+If port 8501 is busy:
+  streamlit run web_app.py --server.port 8502
+
+If app is slow:
+  This is normal - SLMs take 1-2 min per agent
+
+
+========================================
+For detailed guide, see: WEB_INTERFACE_GUIDE.md
+========================================

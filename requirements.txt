@@ -1,0 +1,14 @@
+langgraph==0.2.50
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-ollama==0.2.0
+ollama==0.3.3
+pydantic==2.9.2
+python-dotenv==1.0.1
+pytest==8.3.3
+rich==13.9.2
+colorama==0.4.6
+jsonschema==4.23.0
+typing-extensions==4.12.2
+streamlit==1.40.0
+pandas==2.2.3
